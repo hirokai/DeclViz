@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scala.js to D3.js binding test</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style>
+
+        svg {
+            width: 300px;
+            height: 300px;
+            font: 10px sans-serif;
+        }
+
+        rect {
+            fill-opacity: .6;
+            fill: #e377c2;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+<h2>Simple test</h2>
+<svg id='svg1'></svg>
+<svg id='svg2'></svg>
+
+<script type="text/javascript" src='http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.9/d3.js'></script>
+
+<script type="text/javascript" src="./target/scala-2.11/example-fastopt.js"></script>
+<script type="text/javascript" src="./target/scala-2.11/example-launcher.js"></script>
+
+</body>
+</html>
